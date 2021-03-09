@@ -1,0 +1,12 @@
+{
+  "name": "bazel-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@bazel/bazelisk": "^1.7.5",
+    "@bazel/typescript": "^3.2.2",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.3"
+  }
+}

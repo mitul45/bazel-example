@@ -1,0 +1,5 @@
+node_modules
+bazel-bazel-example
+bazel-bin
+bazel-out
+bazel-testlogs
