@@ -1,1 +1,1 @@
-throw new Error("here");
+console.log(process.version)

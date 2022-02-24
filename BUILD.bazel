@@ -4,7 +4,7 @@ load("@npm//@bazel/typescript:index.bzl", "ts_config", "ts_library")
 ts_library(
     name = "sources",
     srcs = ["//:index.ts"],
-    deps = ["@npm//tslib"],
+    deps = ["@npm//tslib", "@npm//@types/node"],
     tsconfig = "//:tsconfig.json",
 )
 

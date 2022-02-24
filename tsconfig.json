@@ -13,7 +13,7 @@
     "importsNotUsedAsValues": "error",
     "jsx": "react",
     "jsxFactory": "Saba.JSX",
-    "lib": ["es2018"],
+    "lib": ["es2018", "dom"],
     "module": "commonjs",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,

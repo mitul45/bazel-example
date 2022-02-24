@@ -6,8 +6,8 @@ workspace(
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     name = "build_bazel_rules_nodejs",
-    sha256 = "55a25a762fcf9c9b88ab54436581e671bc9f4f523cb5a1bd32459ebec7be68a8",
-    urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/3.2.2/rules_nodejs-3.2.2.tar.gz"],
+    sha256 = "2644a66772938db8d8c760334a252f1687455daa7e188073f2d46283f2f6fbb7",
+    urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/4.6.2/rules_nodejs-4.6.2.tar.gz"],
 )
 
 # http_archive(
@@ -18,7 +18,7 @@ http_archive(
 
 load("@build_bazel_rules_nodejs//:index.bzl", "node_repositories")
 node_repositories(
-    node_version = "14.13.0",
+    node_version = "16.14.0",
     yarn_version = "1.22.4",
     node_urls = [
         "https://nodejs.org/dist/v{version}/{filename}",
