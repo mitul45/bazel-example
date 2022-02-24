@@ -18,7 +18,7 @@ http_archive(
 
 load("@build_bazel_rules_nodejs//:index.bzl", "node_repositories")
 node_repositories(
-    node_version = "16.14.0",
+    node_version = "16.13.0",
     yarn_version = "1.22.4",
     node_urls = [
         "https://nodejs.org/dist/v{version}/{filename}",
