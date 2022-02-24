@@ -8,3 +8,8 @@ To run the app:
 yarn install
 yarn bazel run :bin
 ```
+
+---
+
+Sample bazel app to demonstrate the usage of Node v16.14.0 in WORKSPACE file
+https://github.com/bazelbuild/rules_nodejs/pull/3319
